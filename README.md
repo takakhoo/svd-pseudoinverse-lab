@@ -15,8 +15,8 @@ learning or signal-processing systems.
 ## Quick start
 
 ```bash
-git clone https://github.com/takakhoo/SVD-Calculator.git
-cd SVD-Calculator
+git clone https://github.com/takakhoo/svd-pseudoinverse-lab.git
+cd svd-pseudoinverse-lab
 python -m venv .venv
 source .venv/bin/activate  # Windows: .venv\Scripts\activate
 python -m pip install -r requirements.txt
@@ -27,9 +27,10 @@ jupyter lab "Singular Value Decomposition.ipynb"
 
 ## Verification
 
-The example reconstructs an input matrix from its factors and compares the
-custom pseudoinverse calculation with NumPy's reference implementation. The
-notebook is deliberately small so each operation can be checked directly.
+The notebook was executed end to end on September 16, 2026. It reconstructs an
+input matrix from its factors and compares the custom pseudoinverse calculation
+with NumPy's reference implementation. The notebook is deliberately small so
+each operation can be checked directly.
 
 ## Scope
 
